@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "local-filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/amritansh/Documents"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+Repository: amritanshl/EYAI
+Issue Title: Critical Authentication Bug: Null Email Fix
+Issue Body: We are experiencing a critical bug in the authentication system. When users attempt to log in with an empty email string, the login authentication endpoint returns a 500 Internal Error. This needs immediate attention to handle empty email inputs properly and avoid server errors. 
+
+**Steps to reproduce:**
+1. Navigate to the login page.
+2. Leave the email field empty.
+3. Attempt to log in.
+
+**Expected Behavior:**
+The system should handle the empty input gracefully, returning a user-friendly error message instead of a 500 Internal Error.
+
+**Current Behavior:**
+Returns a 500 Internal Error.
+
+Please prioritize this issue as it affects user authentication.
+MCP Tool Used: github_create_issue
